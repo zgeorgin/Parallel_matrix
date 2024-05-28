@@ -1,0 +1,1 @@
+g++ -w -I OpenCL-SDK/include -L OpenCL-SDK/lib -o test test.cpp Matrix.cpp Cmatrix.cpp -lOpenCL -lm
